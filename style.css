@@ -1,0 +1,117 @@
+/*Colors and fonts */
+
+body {
+  background-image:url(https://img.freepik.com/vecteurs-libre/concept-medical-hexagonal-propre-blanc_1017-29801.jpg?size=626&ext=jpg);
+  color: black;
+  font-family: 'Scheherazade New', serif;
+  font-size: 17px;
+  line-height: 1.6;
+  font-weight: 300;
+  width: 1500px;
+}
+
+p {
+  text-justify: center;
+  text-justify: justify ;
+}
+
+
+/*Custom design wtih id */
+
+#title {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 45px;
+  text-align: center;
+  color: rgb(148,0,211);
+}
+
+#carpart {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 30px;
+  text-align: center;
+  color: rgb(148,0,211);
+}
+
+
+/*Custom design with class*/
+
+.title-design {
+  font-family: 'Kaushan Script' cursive;
+  font-size: 30px;
+  text-align: center;
+  color: rgb(148,0,211);
+}
+
+.container{
+  width: 700px 
+  margin:40px auto;
+  text-align: center;
+}
+
+
+@media (max-width:760px); {
+.container {
+  width: 600; 
+}
+}
+
+@media (max-width: 500px); {
+.container {
+  width: 400; 
+}
+}
+
+.box-white {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(148,0,211,0.1);
+  border-radius: 8px;
+  margin: 45px;
+  text-align: center;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+
+.list-inline i {
+  font-size: 50px;
+  color: rgb(148,0,211);
+}
+
+.list-inline i:hover {
+  font-size: 100px;
+  color: purple;
+}
+
+.sidebar {
+  position: fixed;
+  width: 200px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.page-content {
+  margin-left: 200px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+
+
+
+
+
+
+
+
